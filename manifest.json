@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Wikipedia_DarkMode",
+    "version": "1.0",
+  
+    "description": "Make a better wikipedia dark mode",
+
+    "content_scripts": [
+      {
+        "matches": ["*://*.wikipedia.org/*", "*://news.ycombinator.com/"],
+        "js": ["wikipedia.js"]
+      }
+    ],
+
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "some-name@example.org"
+      }
+    }
+    
+  }
+  
