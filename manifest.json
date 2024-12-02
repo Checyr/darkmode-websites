@@ -7,8 +7,12 @@
 
     "content_scripts": [
       {
-        "matches": ["*://*.wikipedia.org/*", "*://news.ycombinator.com/"],
-        "js": ["wikipedia.js"]
+        "matches": ["*://*.wikipedia.org/*"],
+        "js": ["script/wikipedia.js"]
+      },
+      {
+        "matches": ["*://news.ycombinator.com/*"],
+        "js": ["script/hackernews.js"]
       }
     ],
 

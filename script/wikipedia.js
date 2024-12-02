@@ -1,6 +1,6 @@
-//
 document.getElementsByTagName('body')[0].style.setProperty('--background-color-base', '#292c2f');
 document.getElementsByTagName('body')[0].style.background = '#292c2f';
+document.getElementsByTagName('body')[0].style.color = '#F1F3F5';
 document.getElementsByTagName('body')[0].style.setProperty('--background-color-neutral-subtle', '#292c2f');
 document.getElementsByTagName('body')[0].style.setProperty('--background-color-interactive-subtle', '#292c2f');
 document.getElementsByTagName('body')[0].style.setProperty('--color-progressive', '#f17ea1');
