@@ -1,3 +1,5 @@
+document.getElementById('skin-client-pref-skin-theme-value-night').checked = true;
+
 document.getElementsByTagName('body')[0].style.setProperty('--background-color-base', '#292c2f');
 document.getElementsByTagName('body')[0].style.background = '#292c2f';
 document.getElementsByTagName('body')[0].style.color = '#F1F3F5';
